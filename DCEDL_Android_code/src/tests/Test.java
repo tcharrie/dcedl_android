@@ -13,7 +13,7 @@ public class Test {
 		///ArrayList<Integer> x = new ArrayList<>(Arrays.asList(75,9,4,3,3,1));
 		//ArrayList<String> y = new ArrayList<>(Arrays.asList("75","9","4","3","3","1"));
 		Solveur_chiffres s = new Solveur_chiffres();
-		System.out.println(s.solver_that_stops_when_resolved(x,y,6,7));
+		System.out.println(s.solver_avec_meilleure_approche(x,y,6,999,1000));
 		//System.out.println(s.solver_that_stops_when_resolved(x,y,6,480));
 		long endTime   = System.nanoTime();
 		long totalTime = endTime - startTime;
